@@ -10,8 +10,8 @@
       loop_control:
         label: "{{ item.key }}: {{ item.value }}"
       loop:
-        - { key: user.name, value: "colin-mccarthy" }
-        - { key: user.email, value: "cmccarth@redhat.com" }
+        - { key: user.name, value: "michaelford85" }
+        - { key: user.email, value: "michaelford85@gmail.com" }
         - { key: branch.autosetupmerge, value: "always" }
         - { key: push.default, value: "current" }
 
@@ -54,5 +54,3 @@
       loop_control:
         loop_var: cleanup
         label: "cleanup {{ cleanup }}"
-
-
